@@ -28,6 +28,25 @@ public class Main {
         
         miVariableCadena = "Adios";
         System.out.println(miVariableCadena);
+        
+        // var - Inferencia de tipos de datos en Java
+        var miVariableEntera2 = 15;
+        System.out.println(miVariableEntera2);
+        
+        var miVariableCadena2 = "Que haces";
+        System.out.println("miVariableCadena2 = " + miVariableCadena2);
+        // escribimos soutv y te trae la variable
+        System.out.println("miVariableCadena2 = " + miVariableCadena2);
+        
+        // reglas para escribir una variable, se aconseja :
+         var miVariable = 1;
+         var _miVariable = 2;
+         var $miVariable =3;
+         // var áVariable = 10; -> no se recomienda utilizar acento
+         // No esta permitido utilizar caracteres especiales
+         
+         
+         
     }
     
 }
