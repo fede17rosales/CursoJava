@@ -12,6 +12,12 @@ package operadores;
 public class PruebaAritmetica {
 
     public static void main(String[] args) {
+        
+        // variable local
+        var a = 10;
+        var b = 2;
+        miMetodo();
+        
         Aritmetica aritmetica1 = new Aritmetica();
 
         aritmetica1.a = 2;
@@ -24,5 +30,11 @@ public class PruebaAritmetica {
         resultado = aritmetica1.sumarConArgumentos(5, 8);
         System.out.println("resultado usando argumentos = " + resultado);
 
+    }
+    
+    public static void miMetodo() {
+        
+        System.out.println("Otro metodo");
+    
     }
 }

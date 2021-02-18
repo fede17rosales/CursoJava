@@ -3,8 +3,8 @@ package clases;
 
 public class Persona {
     // atributos de la clase
-    String nombre;
-    String apellido;
+   public String nombre;
+   public String apellido;
     // Metodos
     public void desplegarInformación(){
         System.out.println("Nombre: " + nombre);
