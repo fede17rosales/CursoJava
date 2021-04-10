@@ -7,8 +7,8 @@ public class TestIntanceOf {
 
     public static void main(String[] args) {
 
-//        Empleado empleado = new Empleado("Juan", 5000);
-//        determinarTipo(empleado);
+        Empleado empleado = new Empleado("Juan", 5000);
+        determinarTipo(empleado);
         Gerente gerente1 = new Gerente("Fede", 100.0, "La Rioja");
         determinarTipo(gerente1);
     }
