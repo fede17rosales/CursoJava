@@ -1,0 +1,3 @@
+beans\HolaMundoEJBImpl.class
+beans\HolaMundoEJBRemoto.class
+test\TestHolaMundoEJB.class
